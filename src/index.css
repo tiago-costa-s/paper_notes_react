@@ -5,10 +5,16 @@
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  --light-grey: #0000001f;
+  --medium-gray: #0000006e;
 }
 
 * {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
+}
+
+ul {
+  list-style: none;
 }

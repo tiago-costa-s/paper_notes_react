@@ -3,7 +3,6 @@
   height: 250px;
   padding: 1rem 1.2rem 0rem 1rem;
   border-radius: 20px;
-  background-color: #f8e09d;
   font-family: "Rubik", sans-serif;
   box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px,
     rgba(17, 17, 26, 0.05) 0px 8px 32px;
@@ -12,7 +11,7 @@
 
 .note:hover .icon_closed,
 .note:hover .icon_pin {
-  color: #95865e;
+  color: #00000083;
 }
 
 .note_body {
@@ -58,7 +57,6 @@
   top: 50%;
   left: 50%;
   transform: translate(420%, -50%);
-
   font-size: 1.4rem;
   color: transparent;
   cursor: pointer;
@@ -69,7 +67,6 @@
   top: 50%;
   left: 50%;
   transform: translate(300%, -120%);
-
   font-size: 1.8rem;
   color: transparent;
   cursor: pointer;
@@ -78,4 +75,34 @@
 .icon_closed:hover,
 .icon_pin:hover {
   color: black;
+}
+
+.fixed_note {
+  color: red;
+  background-color: red;
+}
+
+/*_notese das cores */
+.orange_notes {
+  background-color: #f8e09d;
+}
+
+.green_notes {
+  background-color: #baf89d;
+}
+
+.yellow_notes {
+  background-color: #f7f89d;
+}
+
+.blue_notes {
+  background-color: #9dd7f8;
+}
+
+.red_notes {
+  background-color: #ffb7b7;
+}
+
+.pink_notes {
+  background-color: #f5bdf5;
 }
