@@ -37,28 +37,28 @@
     cursor: pointer;
 }
 
-.orange {
-    background-color: #f5cd84;
+.peach {
+    background-color: #fbdda5;
 }
 
-.green {
-    background-color: #b9e7b9;
+.mint_green {
+    background-color: #b6fcb6;
 }
 
-.yellow {
-    background-color: #e8e99c;
+.pale_yellow {
+    background-color: #feffa9;
 }
 
-.blue {
-    background-color: #a7caf2;
+.light_sky_blue {
+    background-color: #badaff;
 }
 
-.red {
-    background-color: #f89d9d;
+.light_coral {
+    background-color: #ffb8b8;
 }
 
-.pink {
-    background-color: #f2a7e5;
+.lavender_pink {
+    background-color: #ffb5f3;
 }
 
 .pencil_container {

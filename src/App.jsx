@@ -4,7 +4,7 @@ import './App.css';
 
 function App() {
   const [noteList, setNoteList] = useState([]);
-  const [colorNote, setColorNote] = useState('orange_notes');
+  const [colorNote, setColorNote] = useState('peach');
 
   // carregar a lista do localStorage quando o componente for montado
   useEffect(() => {

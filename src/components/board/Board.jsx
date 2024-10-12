@@ -4,8 +4,8 @@ import { useEffect, useState } from "react";
 import BoardController from "../bordController/BoardController";
 import "./Board.css";
 
-const Board = ({ createNote, noteList, removeNote, addColorNotes, colorNote }) => {
- 
+const Board = ({ createNote, noteList, removeNote, addColorNotes, colorNote, colorText }) => {
+
   const alterSelectColor = () => {
     const color = document.querySelectorAll("#colors_contrainer ul li");
     console.log(color);
@@ -38,6 +38,7 @@ const Board = ({ createNote, noteList, removeNote, addColorNotes, colorNote }) =
                 text={item.text}
                 date={item.createDate}
                 colorNote={item.colorNote}
+                colorText={item.colorText}
                 removeNote={removeNote}
               />
             </li>

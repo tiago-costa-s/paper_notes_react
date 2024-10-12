@@ -30,28 +30,28 @@ const BoardController = ({ createNote, addColorNotes, colorNote }) => {
 
       <div className='colors_container'>
         <div
-          className={`circle orange ${colorNote === 'orange' ? 'selected' : ''}`}
-          onClick={() => addColorNotes('orange')}>
+          className={`circle peach ${colorNote === 'peach' ? 'selected' : ''}`}
+          onClick={() => addColorNotes('peach')}>
         </div>
         <div
-          className={`circle green ${colorNote === 'green' ? 'selected' : ''}`}
-          onClick={() => addColorNotes('green')}>
+          className={`circle mint_green ${colorNote === 'mint_green' ? 'selected' : ''}`}
+          onClick={() => addColorNotes('mint_green')}>
         </div>
         <div
-          className={`circle yellow ${colorNote === 'yellow' ? 'selected' : ''}`}
-          onClick={() => addColorNotes('yellow')}>
+          className={`circle pale_yellow ${colorNote === 'pale_yellow' ? 'selected' : ''}`}
+          onClick={() => addColorNotes('pale_yellow')}>
         </div>
         <div
-          className={`circle blue ${colorNote === 'blue' ? 'selected' : ''}`}
-          onClick={() => addColorNotes('blue')}>
+          className={`circle light_sky_blue ${colorNote === 'light_sky_blue' ? 'selected' : ''}`}
+          onClick={() => addColorNotes('light_sky_blue')}>
         </div>
         <div
-          className={`circle red ${colorNote === 'red' ? 'selected' : ''}`}
-          onClick={() => addColorNotes('red')}>
+          className={`circle light_coral ${colorNote === 'light_coral' ? 'selected' : ''}`}
+          onClick={() => addColorNotes('light_coral')}>
         </div>
         <div
-          className={`circle pink ${colorNote === 'pink' ? 'selected' : ''}`}
-          onClick={() => addColorNotes('pink')}>
+          className={`circle lavender_pink ${colorNote === 'lavender_pink' ? 'selected' : ''}`}
+          onClick={() => addColorNotes('lavender_pink')}>
         </div>
       </div>
       <div className="pencil_container">
